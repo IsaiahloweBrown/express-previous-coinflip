@@ -1,6 +1,92 @@
-body{
-  background: red;
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Kolker+Brush&display=swap');
+
+:root, body{
+  word-wrap:break-word;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.7),
+    rgba(0, 123, 255, 0.7)
+  ), url("./bg-tupac.jpg");
+  /* https://stackoverflow.com/questions/16841323/making-gradient-background-fill-page-with-css */
+  /* This was mad hepful and background mdn */
+    background-size: cover;
+    height: 100%;
+    image-rendering:crisp-edges;
+   
+    
+ 
 }
-h3{
-  margin-top: 40px;
+
+.index-header {
+  font-family: 'Indie Flower', cursive, 'Arial';
+  
+ 
+}
+
+.index-header-two {
+
+  font-family: 'Kolker Brush', cursive;
+}
+.container {
+  padding-top: 12%;
+}
+
+input {
+  height: 100%;
+}
+
+h1, h2, h3, span {
+  color: white
+}
+
+.well {
+  color: rgb(255, 0, 0);
+  background-color: black;
+}
+
+
+.card {
+
+  position: absolute;
+  width: 30%;
+  padding: 3rem 2.5rem;
+  background: rgb(0, 0, 0, 0.75);
+  border-radius: 15px;
+  color: white;
+
+}
+
+.card button {
+  text-align: center;
+}
+
+
+
+.hidden {
+  display: none;
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.guess {
+  margin: 7%;
+  background: rgb(255, 255, 255,0);
+  color:white;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 5px;
+}
+
+.guess-right {
+  margin: 7%;
+  background: rgb(255, 255, 255,0);
+  color:white;
+  border: 1px solid rgb(132, 255, 0);
+  border-radius: 5px;
 }

@@ -38,9 +38,9 @@ app.post('/flips', (req, res) => {
   let actualResult
   console.log(results)
   if(results === 1) {
-    actualResult = "heads"
+    actualResult = "tupac"
   } else if(results === 0) {
-    actualResult = "tails"
+    actualResult = "biggie"
   }
   
   let status 
